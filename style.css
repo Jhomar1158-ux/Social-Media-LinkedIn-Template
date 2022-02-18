@@ -193,7 +193,7 @@ main{
     border: 2px solid grey;
     height: 200px;
     border-radius: 5px;
-
+    
 }
 
 .header-cards-2{
@@ -240,23 +240,51 @@ main{
 
 .connections{
     border: 2px solid grey;
-    height: 500px;
+    height: 350px;
     margin-top: 20px;
     border-radius: 5px;
 
 }
 
-.user-x{
-    display: flex;
-    padding: 5px;
-    align-items: center;
-}
 
 .user-name{
-    
+    display: flex;
+    align-items: center;
+}
+.user-x{
+    display: flex;
+    justify-content: space-between;
 }
 
 .user-x img{
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.user-name h4{
+    margin-left: 10px;
+}
+
+.user-name{
+    margin: 5px;
+}
+
+.view-more{
+    border: 2px solid grey;
+    padding: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.view-more a{
+    font-weight: bold;
+    color:#0c5394;
+    font-size: 22px;
+    
+}
+.user-name img{
     width: 40px;
     border-radius: 50%;
     border: 2px solid black;
