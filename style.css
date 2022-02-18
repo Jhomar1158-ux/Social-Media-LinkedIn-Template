@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ================ HEADER ============= */
+header{
+    position: relative;
+    width: 100%;
+}
+
+.header-box{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    /* ==revisar== */
+    align-items: center;
+    /* align-self: flex-start; */
+    padding: 20px;
+    /* PRUEBA DE MOVIMIENTO ************* */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* OTRO CAPA Z */
+    z-index: 1;
+
+    box-sizing: border-box;
+
+}
+
+header h1{
+    color: white;
+    font-weight: bold;
+}
+
+.header-options{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-options li a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn1{
+    background-color: #17a2b8;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 90px;
+    border: 2px solid #17a2b8;
+}
+.activate{
+    font-weight: bold;
+    font-size: 18px ;
+}
+
+/* ================ MAIN ============= */
+
+main{
+    background-color: white;
+    width: 100%;
+}
+
+.main-wrp{
+    width:1000px ;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__profile{
+    background-image: url("images/JhomarAstuyauri.png");
+    background-position: center; 
+    /* background-repeat: no-repeat;  */
+    background-size: cover; /* Encaja la imagen en el tamaño de la caja*/
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.cover{
+    background-color: #17a2b8;
+    height: 80px;
+    position: relative;
+}
+
+.content-user{
+    margin-top: 55px;
+    margin-left: 30px;
+}
+.space-1{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.card-user-profile{
+    border: 2px solid grey;
+    height: 270px;
+    border-radius: 5px;
+}
+
+.card-education{
+    border: 2px solid grey;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.cover-education{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.education-progress{
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+
+.education-x{
+    height: 50px;
+}
+
+.name-education{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.time-education{
+    color: #302b2b;
+}
+
+.goal-education{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.place{
+    display: flex;
+    justify-content: space-between;
+    width: 95px;
+}
+
+.place img{
+    width: 1vw;
+}
+
+.edit__profile{
+    display: flex;
+    justify-content: space-between;
+    width: 95px;
+}
+
+.edit__profile img{
+    width: 1.3vw;
+}
+
+.edit__profile h4 a{
+    color:#0c5394 ;
+}
+
+.cards-left{
+    background-color: white;
+    width: 675px;
+    
+}
+
+/* ============== CARDS RIGHT =============== */
+
+.cards-right{
+    width: 300px;
+}
+
+.request{
+    border: 2px solid grey;
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+.header-cards-2{
+    background-color: black;
+    width: 273px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+}
+
+.header-cards-2 span{
+    border-radius: 50%;
+    background-color: grey;
+    padding: 10px;
+    height: 15px;
+    
+}
+
+.header-cards-2 h3{
+    color: white;
+}
+
+.header-cards-3 h3{
+    color: white;
+}
+
+
+.header-cards-3{
+    background-color: black;
+    width: 273px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+}
+
+.header-cards-3 span{
+    border-radius: 50%;
+    background-color: grey;
+    padding: 10px;
+    height: 15px;
+}
+
+.connections{
+    border: 2px solid grey;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.user-x{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.user-name{
+    
+}
+
+.user-x img{
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.people{
+    padding: 15px;
+}
+
